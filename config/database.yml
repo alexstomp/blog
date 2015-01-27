@@ -2,20 +2,13 @@ development:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: vampa_blog_dev
-  pool:     5
-
-test:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
-  database: vampa_blog_test
+  database: blog_dev
   pool:     5
 
 production:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: vampa_blog_prod
+  database: blog_prod
   pool:     5
-  username: vampa_blog
+  username: blog
